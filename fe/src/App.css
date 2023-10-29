@@ -1,0 +1,65 @@
+.myContainer {
+    height: 100vh;
+    width: 100vw;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.places-container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 300px;
+}
+
+.map-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.combobox-input {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.mapContainer {
+    position: relative;
+    top: 40px;
+    margin: 10px 50px;
+    height: 300px;
+}
+
+.formcontaniner {
+    margin: 10px 300px;
+    width: 50%;
+    border: 0.9px solid black;
+    padding: 0px 20px;
+}
+
+.loginTitle {
+    font-weight: bold;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.message {
+    font-weight: bold;
+    color: orangered;
+}
